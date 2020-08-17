@@ -1,0 +1,30 @@
+.hero {
+  margin-top: 2rem;
+  position: absolute;
+
+  .info {
+    position: relative;
+    top: 3rem;
+    left: 0;
+
+    &__title {
+      font-size: 1.5rem;
+      font-weight: 500;
+      padding: 1.2rem;
+    }
+
+    &__subtitle {
+      font-size: 1.2rem;
+      padding: 0 1.2rem;
+      margin-bottom: 1rem;
+      font-weight: 500;
+    }
+
+    &__btn {
+      background: $btn-background-color;
+      color: #fff;
+      font-weight: 500;
+      padding: 0.5rem;
+      margin: 1rem 1.2rem;
+      padding: 0 1.2rem;
+      border-radius:
