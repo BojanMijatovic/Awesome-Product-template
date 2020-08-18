@@ -1,0 +1,20 @@
+@import './reset';
+@import './variables';
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background: $main-background;
+
+  .brand__logo {
+    margin: 0.5rem 0 0 0.5rem;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .ham__menu {
+    margin: 0.5rem 0.5rem 0 0;
+  }
+}

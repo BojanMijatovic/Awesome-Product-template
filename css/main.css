@@ -1,10 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap");
 * {
   margin: 0;
+  padding: 0;
   box-sizing: border-box; }
 
 html {
   font-size: 62.5%;
-  font-family: 'Merriweather', serif; }
+  font-family: 'Merriweather', serif;
+  font-weight: 400; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%;
+  font-family: 'Merriweather', serif;
+  font-weight: 400; }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background: #f6f0f0; }
+  .header .brand__logo {
+    margin: 0.5rem 0 0 0.5rem; }
+  .header .nav {
+    display: none; }
+  .header .ham__menu {
+    margin: 0.5rem 0.5rem 0 0; }
 
 /*# sourceMappingURL=main.css.map */

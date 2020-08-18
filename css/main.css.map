@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAQ,kGAA0F;ACAlG,CAAE;EACA,MAAM,EAAE,CAAC;EACT,UAAU,EAAE,UAAU;;AAGxB,IAAK;EACH,SAAS,EAAE,KAAK;EAChB,WAAW,EAAE,qBAAqB",
-"sources": ["../scss/main.scss","../scss/components/_reset.scss"],
+"mappings": "AAAQ,kGAA0F;ACAlG,CAAE;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;;AAGxB,IAAK;EACH,SAAS,EAAE,KAAK;EAChB,WAAW,EAAE,qBAAqB;EAClC,WAAW,EAAE,GAAG;;AATlB,CAAE;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;;AAGxB,IAAK;EACH,SAAS,EAAE,KAAK;EAChB,WAAW,EAAE,qBAAqB;EAClC,WAAW,EAAE,GAAG;;ACNlB,OAAQ;EACN,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,UAAU,ECNM,OAAO;EDQvB,oBAAa;IACX,MAAM,EAAE,iBAAiB;EAG3B,YAAK;IACH,OAAO,EAAE,IAAI;EAGf,kBAAW;IACT,MAAM,EAAE,iBAAiB",
+"sources": ["../scss/main.scss","../scss/components/_reset.scss","../scss/components/_header.scss","../scss/components/_variables.scss"],
 "names": [],
 "file": "main.css"
 }
