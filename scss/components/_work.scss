@@ -1,0 +1,50 @@
+.work {
+  margin-top: 1.5rem;
+
+  .project {
+    display: flex;
+    flex-direction: column;
+
+    &__item {
+      margin: 1.4rem 0 1.4rem 2rem;
+      list-style: none;
+
+      &-title {
+        padding-bottom: 0.5rem;
+        font-size: 1.2rem;
+        border-bottom: 3px solid $secondary-color;
+        width: 40vw;
+      }
+      &-subtitle {
+        margin: 1.5rem 0 0.5rem 0;
+        font-size: 1.4rem;
+      }
+      &-des {
+        padding: 0.5rem 0;
+        font-size: 1.1rem;
+        margin-bottom: 1rem;
+        line-height: 1;
+      }
+
+      &-btn {
+        text-decoration: none;
+        color: $main-btn-color;
+        font-weight: 700;
+        font-size: 1.2rem;
+
+        &::after {
+          content: '\2192';
+          padding-left: 0.3rem;
+          font-weight: 700;
+        }
+      }
+      &-img {
+        margin-top: 4rem;
+        img {
+          width: 90vw;
+          height: 40vh;
+        }
+      }
+    }
+  }
+}

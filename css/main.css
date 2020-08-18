@@ -88,4 +88,40 @@ html {
           font-size: 1.3rem;
           margin-top: 1rem; }
 
+.work {
+  margin-top: 1.5rem; }
+  .work .project {
+    display: flex;
+    flex-direction: column; }
+    .work .project__item {
+      margin: 1.4rem 0 1.4rem 2rem;
+      list-style: none; }
+      .work .project__item-title {
+        padding-bottom: 0.5rem;
+        font-size: 1.2rem;
+        border-bottom: 3px solid #fde18b;
+        width: 40vw; }
+      .work .project__item-subtitle {
+        margin: 1.5rem 0 0.5rem 0;
+        font-size: 1.4rem; }
+      .work .project__item-des {
+        padding: 0.5rem 0;
+        font-size: 1.1rem;
+        margin-bottom: 1rem;
+        line-height: 1; }
+      .work .project__item-btn {
+        text-decoration: none;
+        color: #fd7e4b;
+        font-weight: 700;
+        font-size: 1.2rem; }
+        .work .project__item-btn::after {
+          content: '\2192';
+          padding-left: 0.3rem;
+          font-weight: 700; }
+      .work .project__item-img {
+        margin-top: 4rem; }
+        .work .project__item-img img {
+          width: 90vw;
+          height: 40vh; }
+
 /*# sourceMappingURL=main.css.map */
