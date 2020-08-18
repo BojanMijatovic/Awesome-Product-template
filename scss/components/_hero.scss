@@ -1,0 +1,44 @@
+#hero {
+  color: $main-text-color;
+  position: relative;
+  background: url('https://images.unsplash.com/photo-1554227231-54aa5db01c51?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1355&q=80');
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 60vh;
+
+  .hero__text {
+    position: absolute;
+    top: 20vh;
+    left: 0;
+    padding: 1rem;
+
+    &-title {
+      font-weight: 700;
+      font-size: 2rem;
+      line-height: 1;
+    }
+    &-subtitle {
+      padding: 0.5rem 0;
+      margin-bottom: 1.5rem;
+    }
+  }
+  a {
+    background: $main-btn-color;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 0.4rem;
+    text-transform: uppercase;
+    font-weight: 700;
+
+    &:hover,
+    &:active {
+      color: $main-btn-color;
+      background-color: #f1f1f1;
+      @include transition-ease;
+    }
+  }
+}

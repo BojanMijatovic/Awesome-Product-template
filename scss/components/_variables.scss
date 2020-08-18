@@ -4,3 +4,9 @@ $main-text-color: #090909;
 $second-text-color: #848b8b;
 $main-btn-color: #fd7e4b;
 $secondary-color: #fde18b;
+
+//  mixin
+
+@mixin transition-ease {
+  transition: all 0.3s ease-in-out;
+}
