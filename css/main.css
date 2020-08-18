@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%;
+  font-family: 'Merriweather', serif; }
+
+/*# sourceMappingURL=main.css.map */
