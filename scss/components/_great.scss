@@ -1,0 +1,24 @@
+.great {
+  background: $second-background;
+  color: #fdfcf7;
+  padding: 2rem;
+
+  &__title {
+    padding-top: 3rem;
+    margin-left: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  a {
+    color: #fdfcf7;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-left: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #fdfcf7;
+    font-weight: 700;
+    &::after {
+      content: ' \2192';
+    }
+  }
+}

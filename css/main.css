@@ -72,7 +72,8 @@ html {
     text-align: center; }
   .services__des {
     text-align: center;
-    padding: 2rem; }
+    padding: 2rem;
+    color: #848b8b; }
   .services__items {
     display: flex;
     flex-direction: column;
@@ -108,7 +109,8 @@ html {
         padding: 0.5rem 0;
         font-size: 1.1rem;
         margin-bottom: 1rem;
-        line-height: 1; }
+        line-height: 1;
+        color: #848b8b; }
       .work .project__item-btn {
         text-decoration: none;
         color: #fd7e4b;
@@ -123,5 +125,43 @@ html {
         .work .project__item-img img {
           width: 90vw;
           height: 40vh; }
+
+.brands {
+  margin-top: 2rem;
+  background: #f6f0f0; }
+  .brands__title {
+    padding-top: 1.5rem;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #848b8b; }
+  .brands__list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center; }
+    .brands__list-item {
+      margin: 2.5rem 0; }
+      .brands__list-item img {
+        height: 10vh; }
+
+.great {
+  background: #fec106;
+  color: #fdfcf7;
+  padding: 2rem; }
+  .great__title {
+    padding-top: 3rem;
+    margin-left: 1.5rem;
+    margin-bottom: 2rem; }
+  .great a {
+    color: #fdfcf7;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-left: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #fdfcf7;
+    font-weight: 700; }
+    .great a::after {
+      content: ' \2192'; }
 
 /*# sourceMappingURL=main.css.map */
