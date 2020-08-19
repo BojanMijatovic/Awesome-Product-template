@@ -1,0 +1,64 @@
+@include media-md {
+  //  header
+  .ham__menu {
+    visibility: hidden;
+  }
+
+  .header {
+    .nav {
+      visibility: visible;
+      position: relative;
+
+      &__list {
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        top: 0;
+        left: 10vw;
+        list-style: none;
+
+        &--items {
+          margin: 0 1.3rem;
+          padding: 0.5rem;
+
+          a {
+            text-decoration: none;
+            color: $main-text-color;
+            text-transform: uppercase;
+
+            &:active,
+            &:hover {
+              color: $second-text-color;
+              @include transition-ease;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  //  hero
+  .hero__text {
+    margin-left: 2rem;
+  }
+
+  //  services
+  .services {
+    &__items-list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+
+      .services__item {
+        width: 40vw;
+        margin: 2rem;
+      }
+    }
+  }
+
+  //  works
+  .work {
+    .project__item-title {
+      width: 17vw;
+    }
+  }
+}

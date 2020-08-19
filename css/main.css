@@ -22,11 +22,12 @@ html {
 .header {
   display: flex;
   justify-content: space-between;
-  background: #f6f0f0; }
+  background: #f6f0f0;
+  padding: 0.5rem; }
   .header .brand__logo {
     margin: 0.5rem 0 0 0.5rem; }
   .header .nav {
-    display: none; }
+    visibility: hidden; }
   .header .ham__menu {
     margin: 0.5rem 0.5rem 0 0; }
 
@@ -163,5 +164,83 @@ html {
     font-weight: 700; }
     .great a::after {
       content: ' \2192'; }
+
+.footer {
+  background: #f6f0f0;
+  padding-top: 2rem; }
+  .footer .brand {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 1.5rem; }
+    .footer .brand__name {
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      color: #090909; }
+    .footer .brand__des {
+      color: #848b8b; }
+  .footer__lists {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    padding: 1.5rem; }
+  .footer__list {
+    list-style: none;
+    margin-top: 2rem; }
+    .footer__list-title {
+      font-size: 1.2rem;
+      color: #090909; }
+    .footer__list-item {
+      line-height: 1;
+      margin: 1.5rem; }
+      .footer__list-item a {
+        color: #848b8b;
+        text-decoration: none; }
+        .footer__list-item a:hover, .footer__list-item a:active {
+          color: #090909;
+          transition: all 0.3s ease-in-out; }
+  .footer p {
+    text-align: center;
+    color: #090909;
+    padding-bottom: 0.5rem; }
+
+@media screen and (min-width: 768px) {
+  .ham__menu {
+    visibility: hidden; }
+
+  .header .nav {
+    visibility: visible;
+    position: relative; }
+    .header .nav__list {
+      display: flex;
+      justify-content: space-between;
+      position: absolute;
+      top: 0;
+      left: 10vw;
+      list-style: none; }
+      .header .nav__list--items {
+        margin: 0 1.3rem;
+        padding: 0.5rem; }
+        .header .nav__list--items a {
+          text-decoration: none;
+          color: #090909;
+          text-transform: uppercase; }
+          .header .nav__list--items a:active, .header .nav__list--items a:hover {
+            color: #848b8b;
+            transition: all 0.3s ease-in-out; }
+
+  .hero__text {
+    margin-left: 2rem; }
+
+  .services__items-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); }
+    .services__items-list .services__item {
+      width: 40vw;
+      margin: 2rem; }
+
+  .work .project__item-title {
+    width: 17vw; } }
 
 /*# sourceMappingURL=main.css.map */

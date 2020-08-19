@@ -1,0 +1,60 @@
+.footer {
+  background: $main-background;
+  padding-top: 2rem;
+
+  .brand {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 1.5rem;
+
+    &__name {
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      color: $main-text-color;
+    }
+
+    &__des {
+      color: $second-text-color;
+    }
+  }
+
+  &__lists {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    padding: 1.5rem;
+  }
+
+  &__list {
+    list-style: none;
+    margin-top: 2rem;
+
+    &-title {
+      font-size: 1.2rem;
+      color: $main-text-color;
+    }
+    &-item {
+      line-height: 1;
+      margin: 1.5rem;
+
+      a {
+        color: $second-text-color;
+        text-decoration: none;
+
+        &:hover,
+        &:active {
+          color: $main-text-color;
+          @include transition-ease;
+        }
+      }
+    }
+  }
+
+  p {
+    text-align: center;
+    color: $main-text-color;
+    padding-bottom: 0.5rem;
+  }
+}

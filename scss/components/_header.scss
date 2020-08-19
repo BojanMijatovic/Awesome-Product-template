@@ -5,13 +5,14 @@
   display: flex;
   justify-content: space-between;
   background: $main-background;
+  padding: 0.5rem;
 
   .brand__logo {
     margin: 0.5rem 0 0 0.5rem;
   }
 
   .nav {
-    display: none;
+    visibility: hidden;
   }
 
   .ham__menu {
