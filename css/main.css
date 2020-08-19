@@ -217,7 +217,7 @@ html {
       justify-content: space-between;
       position: absolute;
       top: 0;
-      left: 10vw;
+      left: 8vw;
       list-style: none; }
       .header .nav__list--items {
         margin: 0 1.3rem;
@@ -241,6 +241,15 @@ html {
       margin: 2rem; }
 
   .work .project__item-title {
-    width: 17vw; } }
+    width: 17vw; }
+  .work .project__item {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr); }
+    .work .project__item-text {
+      margin-top: 10rem;
+      padding: 3rem; }
+    .work .project__item-img img {
+      width: 50vw;
+      height: 30vh; } }
 
 /*# sourceMappingURL=main.css.map */
